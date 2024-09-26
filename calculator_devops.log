@@ -1,0 +1,38 @@
+2024-09-24 16:42:15.397 [main] INFO  org.example.Main - START OP: Power
+2024-09-24 16:42:15.404 [main] INFO  org.example.Main - [POWER OPERATION] [SUCCESS] 2.0^3.0 = 8.0
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - END OP: Power
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - START OP: Power
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - [POWER OPERATION] [SUCCESS] 5.0^0.0 = 1.0
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - END OP: Power
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - START OP: Power
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - [POWER OPERATION] [SUCCESS] 0.0^5.0 = 0.0
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - END OP: Power
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - START OP: Power
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - [POWER OPERATION] [SUCCESS] 0.0^0.0 = 1.0
+2024-09-24 16:42:15.405 [main] INFO  org.example.Main - END OP: Power
+2024-09-24 16:42:15.407 [main] INFO  org.example.Main - START OP: Factorial
+2024-09-24 16:42:15.410 [main] INFO  org.example.Main - [FACTORIAL OPERATION] [SUCCESS] 5! = 120
+2024-09-24 16:42:15.410 [main] INFO  org.example.Main - END OP: Factorial
+2024-09-24 16:42:15.411 [main] INFO  org.example.Main - START OP: Factorial
+2024-09-24 16:42:15.411 [main] INFO  org.example.Main - [FACTORIAL OPERATION] [SUCCESS] 0! = 1
+2024-09-24 16:42:15.412 [main] INFO  org.example.Main - END OP: Factorial
+2024-09-24 16:42:15.412 [main] INFO  org.example.Main - START OP: Factorial
+2024-09-24 16:42:15.412 [main] INFO  org.example.Main - [FACTORIAL OPERATION] [SUCCESS] 1! = 1
+2024-09-24 16:42:15.412 [main] INFO  org.example.Main - END OP: Factorial
+2024-09-24 16:42:15.413 [main] INFO  org.example.Main - START OP: Natural Logarithm
+2024-09-24 16:42:15.414 [main] INFO  org.example.Main - [NATURAL LOG OPERATION] [SUCCESS] ln(2.718281828459045) = 1.0
+2024-09-24 16:42:15.415 [main] INFO  org.example.Main - END OP: Natural Logarithm
+2024-09-24 16:42:15.415 [main] INFO  org.example.Main - START OP: Natural Logarithm
+2024-09-24 16:42:15.415 [main] INFO  org.example.Main - [NATURAL LOG OPERATION] [SUCCESS] ln(1.0) = 0.0
+2024-09-24 16:42:15.415 [main] INFO  org.example.Main - END OP: Natural Logarithm
+2024-09-24 16:42:15.416 [main] INFO  org.example.Main - START OP: Natural Logarithm
+2024-09-24 16:42:15.416 [main] ERROR org.example.Main - Natural log of non-positive numbers is undefined!
+2024-09-24 16:42:15.417 [main] INFO  org.example.Main - START OP: Square Root
+2024-09-24 16:42:15.418 [main] INFO  org.example.Main - [SQUARE ROOT OPERATION] [SUCCESS] sqrt(16.0) = 4.0
+2024-09-24 16:42:15.419 [main] INFO  org.example.Main - END OP: Square Root
+2024-09-24 16:42:15.419 [main] INFO  org.example.Main - START OP: Square Root
+2024-09-24 16:42:15.419 [main] INFO  org.example.Main - [SQUARE ROOT OPERATION] [SUCCESS] sqrt(0.0) = 0.0
+2024-09-24 16:42:15.419 [main] INFO  org.example.Main - END OP: Square Root
+2024-09-24 16:42:15.419 [main] INFO  org.example.Main - START OP: Square Root
+2024-09-24 16:42:15.419 [main] INFO  org.example.Main - [SQUARE ROOT OPERATION] [SUCCESS] sqrt(25.0) = 5.0
+2024-09-24 16:42:15.419 [main] INFO  org.example.Main - END OP: Square Root
