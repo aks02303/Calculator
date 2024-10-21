@@ -1,0 +1,19 @@
+---
+- name: Pull Docker Image of Calculator
+  hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  tasks:
+    - name: Remove existing Calculator container
+      command: docker rm -f Calculator
+      ignore_errors: yes  # This will ignore errors if the container does not exist
+    - name: Pull image
+      docker_image:
+        name: akshaypandey/calculator:latest
+        source: pull
+    - name: Start docker service
+      service:
+        name: docker
+        state: started
+    - name: Running container
+      shell: docker run -it -d --name Calculator akshaypandey/calculator
