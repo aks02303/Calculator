@@ -9,11 +9,11 @@
       ignore_errors: yes  # This will ignore errors if the container does not exist
     - name: Pull image
       docker_image:
-        name: akshaypandey/calculator:latest
+        name: akshaypandey233/calculator:latest
         source: pull
     - name: Start docker service
       service:
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name Calculator akshaypandey/calculator
+      shell: docker run -it -d --name Calculator akshaypandey233/calculator
